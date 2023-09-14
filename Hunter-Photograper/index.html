@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+</head>
+<body>
+    <div id="header-section">
+    <!-- navbar-start=here -->
+    <div id="nav-container">
+        <div id="logo">
+            <a href="#"><img src="./CSS/Image/Logo Icon.svg" alt="Logo" width="28px"></a>
+            <a href="#" id="logo-text">Hunter</a>
+        </div>
+        <div id="nav-centre-text">
+            <a href="#contact-me"><span></span> Available for new projects</a>
+        </div>
+        <div class="right-menu">
+        <div class="menu-btn-container">
+                <h3>MENU</h3>
+                <div class="menu-icon-container" onclick="menu_open(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>   
+        </div>
+        <div id="menu-list">
+            <a href="#protfolio-header" onclick=" hide_menu()">Protfolio</a>
+            <a href="#about-wrapper">About me</a>
+            <a href="#clients-section-wrapper">Clients</a>
+            <a href="#contact-me">Get in touch</a>
+          </div></div>
+    </div>
+    <!-- hero container start here -->
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Hi! I'm Hunter, Freelance photograper</h1><br>
+            <h3>Based in Amsterdam, I specialize in conceptual photography and love to take photos with creativity and passion.</h3><br><br>
+            <a href="#">EXPLORE MY WORK <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div class="hero-image">
+            <img src="./CSS/Image/hunter-hero-image.png" alt="" width="100%">
+        </div>
+    </div>
+    </div>
+    <!-- protfolio section start here -->
+    <div class="protfolio-section">
+        <div id="protfolio-header">
+            <h1>My Work</h1><br>
+            <h3>Helping businesses through photography is what makes my job meaningful. Explore some of my recent work down below.</h3>
+        </div>
+        <div class="protfolio-title-wrapper">
+            <div class="left-title">
+                <h3><span>01/</span> Interior photography</h3>
+            </div>
+            <div class="right-title">
+                <div>Real state</div>
+                <div>Interior design</div>
+            </div>
+        </div>
+        <div class="prtofolio-img-container">
+            <img src="./CSS/Image/Interior 1-p-500.jpeg" alt="" width="100%" class="overlay-image">
+            <img src="./CSS/Image/Interior 2-p-500.jpeg" alt="" width="100%">
+            <img src="./CSS/Image/Interior 3-p-500.jpeg" alt="" width="100%" class="display-none990">
+            <img src="./CSS/Image/Interior 4-p-1080.jpeg" alt="" width="100%" class="display-none display-block">
+            <img src="./CSS/Image/Interior 5-p-500.jpeg" alt="" width="100%" class="display-none display-block">
+            <img src="./CSS/Image/Interior 6-p-500.jpeg" alt="" width="100%" class="display-none">
+            <img src="./CSS/Image/Interior 7-p-500.jpeg" alt="" width="100%" class="display-none">
+            <img src="./CSS/Image/Interior 8-p-1080.jpeg" alt="" width="100%" class="display-none">
+            <img src="./CSS/Image/Interior 9-p-1080.jpeg" alt="" width="100%" class="display-none">
+        </div>
+      <div class="view-galery-btn" onclick="img_hide_show()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+
+        <div class="protfolio-title-wrapper">
+            <div class="left-title">
+                <h3><span>02/</span> Corporate photography</h3>
+            </div>
+            <div class="right-title">
+                <div>Business</div>
+                <div>Office</div>
+            </div>
+        </div>
+        <div class="prtofolio-img-container">
+            <img src="./CSS/Image/Corporate 1-p-500.jpeg" alt="" width="100%">
+            <img src="./CSS/Image/Corporate 2-p-500.jpeg" alt="" width="100%">
+            <img src="./CSS/Image/Corporate 3-p-500.jpeg" alt="" width="100%" class="display-none990">
+            <img src="./CSS/Image/Corporate 4-p-500.jpeg" alt="" width="100%" class="display-none-02 display-block">
+            <img src="./CSS/Image/Corporate 5-p-500.jpeg" alt="" width="100%" class="display-none-02 display-block">
+            <img src="./CSS/Image/Corporate 6-p-500.jpeg" alt="" width="100%" class="display-none-02">
+            <img src="./CSS/Image/Corporate 7-p-800.jpeg" alt="" width="100%" class="display-none-02">
+            <img src="./CSS/Image/Corporate 8-p-1080.jpeg" alt="" width="100%" class="display-none-02">
+            <img src="./CSS/Image/Corporate 9-p-1080.jpeg" alt="" width="100%" class="display-none-02">
+        </div>
+        <div class="view-galery-btn" onclick="img_hide_show02()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+        <div class="protfolio-title-wrapper">
+            <div class="left-title">
+                <h3><span>03/ </span> Real Estate</h3>
+            </div>
+            <div class="right-title">
+                <div>Housing</div>
+                <div>Architecture</div>
+            </div>
+        </div>
+        <div class="prtofolio-img-container">
+            <img src="./CSS/Image/Real Estate 1-p-500.jpeg" alt="" width="100%">
+            <img src="./CSS/Image/Real Estate 2-p-500.jpeg" alt="" width="100%">
+            <img src="./CSS/Image/Real Estate 3-p-500.jpeg" alt="" width="100%" class="display-none990">
+            <img src="./CSS/Image/Real Estate 4-p-500.jpeg" alt="" width="100%" class="display-none-03 display-block">
+            <img src="./CSS/Image/Real Estate 5-p-500.jpeg" alt="" width="100%" class="display-none-03 display-block">
+            <img src="./CSS/Image/Real Estate 6-p-500.jpeg" alt="" width="100%" class="display-none-03">
+            <img src="./CSS/Image/Real Estate 7-p-500.jpeg" alt="" width="100%" class="display-none-03">
+            <img src="./CSS/Image/Real Estate 8-p-500.jpeg" alt="" width="100%" class="display-none-03">
+            <img src="./CSS/Image/Real Estate 9-p-500.jpeg" alt="" width="100%" class="display-none-03">
+        </div>
+        <div class="view-galery-btn" onclick="img_hide_show03()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+    </div>
+    <!-- about section start here -->
+    <div id="about-wrapper">
+        <div class="left-images">
+            <img src="./CSS/Image/About Image 1.jpg" alt="" width="100%">
+            <img src="./CSS/Image/About Image 2.jpg" alt="" width="100%">
+        </div>
+        <div class="right-content">
+            <h1>Why I fell in love with photography</h1><br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, <span>eros dolor interdum nulla,</span> ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <span>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</span> Nunc ut sem vitae risus tristique posuere.</p><br><br>
+            <a href="#">WORK WITH ME <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+    <div id="clients-section-wrapper">
+        <div class="clients-section">
+            <div class="clients-logo">
+                <img src="./CSS/Image/Logo Ipsum.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 2.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 4.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 2.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 4.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 2.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 4.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 2.svg" alt="" width="100px">
+                <img src="./CSS/Image/Logo Ipsum 4.svg" alt="" width="100px">
+            </div>
+        </div>
+        <!-- testimonial-section start here-->
+        <div class="testimonial">
+            <div class="slideshow-container">
+            
+              <div class="mySlides">
+                <q>Hunter is a very professional and creative photographer. Hunter has plenty of ideas to make the pictures clear and interesting. We look forward to working with him again soon.</q><br><br>
+                <img src="./CSS/Image/Testimonee 3.jpg" alt="" width="80px">
+            
+                <p class="author">- John Keats</p>
+              </div>
+              
+              <div class="mySlides">
+               <q>We were looking for a photographer that could deliver corporate yet personal photos of our company and we’re happy to say that Hunter exceeded our expectations.</q><br><br>
+                <img src="./CSS/Image/Testimonee 2.jpg" alt="" width="80px">
+                <p class="author">- Ernest Hemingway</p>
+              </div>
+              
+              <div class="mySlides">
+                <q>I can't thank Hunter enough. As an interior designer it is a blast to work with Hunter. He masters capturing the ''feeling'' of a room and guides you through his process step by step.</q><br><br>
+                <img src="./CSS/Image/Testimonee 1.jpg" alt="" width="80px">
+                <p class="author">- Thomas A. Edison</p>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+
+              </div>
+            </div>
+    </div>
+
+    <!-- contact-me section start here -->
+    <div id="contact-me">
+        <div class="contact-left-wrapper">
+            <img src="./CSS/Image/hunter-hero-image.png" alt="" width="110px"><br><br>
+            <h1>Feel inspired?</h1><br>
+            <p>Lets connect! I'd love hear about your story and how I might be able to help through photography.</p><br><br><br>
+            <a href="#">EMAIL ME <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div class="form-wrapper">
+        <form action="#">
+            <div class="left-right-wrapper">
+            <div class="left-side">
+            <label for="name">FRIST NAME</label><br>
+            <input type="text"><br>
+            <label for="name">MAIL</label><br>
+            <input type="email">
+            </div>
+            <div class="right-side">
+            <label for="name">COMPANY</label><br>
+            <input type="text"><br>
+            <label for="name">PHONE</label><br>
+            <input type="number">
+            </div></div><br>
+            <p class="like-p">I WOULD LIKE TO:</p>
+            <label class="container">
+                <input type="checkbox" name="radio">
+               <span> Hire you for a project</span></label><br>
+              <label class="container">
+                <input type="checkbox" name="radio">
+               <span> Ask a question</span></label><br>
+              <label class="container">
+                <input type="checkbox" name="radio">
+               <span> Talk partnership</span></label><br><br>
+                <p>Message</p>
+                <textarea name="" id=""></textarea><br>
+                <button type="submit">Submit</button>
+        </form>
+        </div></div>
+        <footer>
+            <div class="left-social-icon">
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div class="right-link">
+                <a href="#">Designed With Shamim <img src="./CSS/Image/icons8-man-in-red-shirt-50.png" alt="" width="20px"></a>
+            </div>
+        </footer>
+    <script src="./JAVASCRIPT/script.js"></script>
+</body>
+</html>
